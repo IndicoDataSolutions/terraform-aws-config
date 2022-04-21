@@ -145,3 +145,9 @@ variable "disabled_aggregation_regions" {
   description = "A list of regions where config aggregation is disabled"
   default     = ["ap-northeast-3"]
 }
+
+variable "resource_types" {
+  type        = list(string)
+  default     = null
+  description = "A list that specifies the types of AWS resources for which AWS Config records configuration changes (for example, AWS::EC2::Instance or AWS::CloudTrail::Trail)."
+}
