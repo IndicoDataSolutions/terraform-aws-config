@@ -151,3 +151,4 @@ variable "resource_types" {
   default     = null
   description = "A list that specifies the types of AWS resources for which AWS Config records configuration changes (for example, AWS::EC2::Instance or AWS::CloudTrail::Trail)."
 }
+
